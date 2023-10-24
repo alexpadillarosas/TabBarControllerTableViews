@@ -15,6 +15,7 @@
 		FAE1686C28FBA444009ED8A9 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1686B28FBA444009ED8A9 /* DynamicTableViewController.swift */; };
 		FAE1686E28FBA4E1009ED8A9 /* BlogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1686D28FBA4E1009ED8A9 /* BlogTableViewCell.swift */; };
 		FAE1687028FBCCAE009ED8A9 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1686F28FBCCAE009ED8A9 /* Blog.swift */; };
+		FAEFDE382AE7D6F70075B8F0 /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFDE372AE7D6F70075B8F0 /* StaticTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FAE1686B28FBA444009ED8A9 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
 		FAE1686D28FBA4E1009ED8A9 /* BlogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewCell.swift; sourceTree = "<group>"; };
 		FAE1686F28FBCCAE009ED8A9 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		FAEFDE372AE7D6F70075B8F0 /* StaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				FAE1686D28FBA4E1009ED8A9 /* BlogTableViewCell.swift */,
 				FAE1686F28FBCCAE009ED8A9 /* Blog.swift */,
 				FAE1685928FB7B85009ED8A9 /* Main.storyboard */,
+				FAEFDE372AE7D6F70075B8F0 /* StaticTableViewController.swift */,
 				FAE1685C28FB7B86009ED8A9 /* Assets.xcassets */,
 				FAE1685E28FB7B86009ED8A9 /* LaunchScreen.storyboard */,
 				FAE1686128FB7B86009ED8A9 /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE1685428FB7B85009ED8A9 /* AppDelegate.swift in Sources */,
+				FAEFDE382AE7D6F70075B8F0 /* StaticTableViewController.swift in Sources */,
 				FAE1686E28FBA4E1009ED8A9 /* BlogTableViewCell.swift in Sources */,
 				FAE1687028FBCCAE009ED8A9 /* Blog.swift in Sources */,
 				FAE1686C28FBA444009ED8A9 /* DynamicTableViewController.swift in Sources */,

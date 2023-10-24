@@ -22,6 +22,7 @@ class DynamicTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         initBlogList()
+        
     }
 
     func initBlogList(){
