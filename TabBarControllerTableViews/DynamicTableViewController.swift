@@ -21,6 +21,7 @@ class DynamicTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
+        //Function to initialize the array
         initBlogList()
         
     }
@@ -73,6 +74,11 @@ class DynamicTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellId = "cell"
+        
+        /*
+         It's important to CAST the default table view to the BlogTableViewCell since we have mapped our
+         UI design to the UITableViewCell class BlogTableViewCell
+         */
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! BlogTableViewCell
 
 
